@@ -1,0 +1,215 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 30%;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url(streetlights-cloudy-day.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+html{
+    scroll-behavior:smooth;
+}
+.caption-stormy{
+    text-align:center;
+}
+.weather-me{
+    color:#CCCEBE;
+    font-family:"Dancing Script", cursive;
+    margin-left: 130px;
+    font-size:60px;
+    font-weight: 900;
+    margin-top: 20px;
+    cursor:pointer;
+    transition: .5s;
+}
+.weather-me:hover{
+    color:white;
+}
+.left-form-container{
+    border-style:solid;
+    width:40%;
+    color:white;
+    place-items:end;
+    align-items: end;
+    background-color:transparent;
+    margin-left:0px;
+    height:100%;
+    border-color:#CCCEBE;
+}
+hr{
+    margin-left:50px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+    
+}
+.input-location{
+    display:none;
+}
+.both-container{
+    display:flex;
+    justify-content: space-between;
+}
+.weather-details-text{
+    text-align:center;
+    color:white;
+    margin-top:20px;
+    cursor:pointer;
+}
+.search-location{
+    padding:10px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color: transparent;
+    text-align: center;
+    margin-left:170px;
+    color:white;
+}
+.search-location:focus{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+input::placeholder{
+    color:white;
+    font-weight: 400;
+}
+
+.image-vector{
+    height:250px;
+    width:200px;
+    margin-right: 50px;
+    transition: .5s;
+}
+.image-vector:hover{
+    box-shadow: #1FD8D7 5px 5px 5px 5px;
+}
+.text-clothe{
+    margin-left: 10px;
+}
+.clothes-to-wear-side-vector{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.rights-reserved{
+    text-align: center;
+    margin-top: 100px;
+}
+.show-location{
+    position:absolute;
+    left:200px;
+    font-family: "Dancing Script", cursive;
+    top:200px;
+    font-size: 60px;
+    color:white;
+    font-weight: 700;
+}
+.bottom-wm{
+    cursor:pointer;
+    transition:.5s;
+
+}
+.bottom-wm:hover{
+    color:white;
+    text-decoration: none;
+}
+.terms-and-conditions{
+    cursor:pointer;
+
+}
+@media screen and (max-width:500px){
+    html{
+        scroll-behavior: smooth;
+    }
+    .weather-me{
+        margin-left:20px;
+        margin-top:5px;
+        font-size: 35px;
+    }
+    .left-form-container{
+        margin-left:0px;
+        width:100%;
+        margin-top:150px;
+        height:100%;
+    }
+    .search-location{
+        display:none;
+    }
+    .search-location{
+        margin-left:0px;
+    }
+    .both-container{
+        display:block;
+    }
+    .weather-details-text{
+        margin-top:20px;
+    }
+    .input-location{
+        display:block;
+        background-color: transparent;
+        place-items: end;
+        text-align:center;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        color:white;
+    }
+    .top-input-container{
+        display:flex;
+        padding:0px;
+        justify-content: space-between;
+        margin-top: 10px;
+        height:30px;
+
+    }
+    .image-vector{
+        background-color: #CCCEBE;
+        height:200px;
+        width:150px;
+        margin-right:0px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+        text-align: center;
+        margin-left: 80px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .text-clothe{
+        margin-left: 10px;
+    }
+    .clothes-to-wear-side-vector{
+        display:flex;
+        justify-content: space-between;
+        display: block;
+        text-align: center;
+        margin-top: 250px;
+
+    }
+    .show-location{
+        left:20px;
+        font-size: 40px;
+        top:100px;
+    }
+    hr{
+        margin-top: 120px;
+    }
+    .rights-reserved{
+        margin-top: 50px;
+    }
+    .image-vector:hover{
+        box-shadow: #1FD8D7 15px 15px 15px 15px;
+    }
+    
+}
